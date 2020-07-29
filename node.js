@@ -5,7 +5,7 @@ var app = express();
 var http = require('http');
 var server = http.Server(app);
 
-app.use(express.static('../js'));
+app.use(express.static('js'));
 
 server.listen(PORT, function() {
     console.log('Chat server running');
