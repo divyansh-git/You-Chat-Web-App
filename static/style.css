@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+h1{
+    justify-content: center;
+    text-align: center;
+   padding:0px auto;
+    color: red;
+}
+h4{
+    justify-content: center;
+    text-align: center;
+   padding:0px auto;
+   color:lightpink;
+}
+.container{
+    height:85vh;
+    width:85%;
+    margin:0px auto;
+    border:2px solid black;
+    background: linear-gradient(to right, orange,yellow);
+    overflow-y:auto;
+    border-radius: 5px;
+    overflow-anchor: none;
+    background-image: url('background.jpg');
+}
+.message{
+border:2px solid black;
+border-radius: 4px;
+width:30%;
+padding:10px;
+box-shadow: 2px 3px 3px;
+margin:10px 10px;
+word-wrap: break-word;
+color:black;
+font-family: 'Arimo', sans-serif;
+background-color: #d4cccc;
+}
+.message:hover{
+    background-color: #e0baba;
+}
+.left{
+    float:left;
+clear:both;
+}
+.right{
+    
+    float:right;
+    clear:both;
+}
+.send{
+    text-align: center;
+}
+#messageinput{
+    width:81%;
+    margin:5px 0px;
+    padding:7px;
+    border:1px solid black;
+    border-radius: 4px;
+}
+.btn{
+    padding:10px;
+    border-radius:7px;
+}
+body{
+    margin:0px;
+}
+@media only screen and (max-width: 340px) {
+    .container {
+      width:100%;
+    }
+    .nav{
+        margin: 5px 5px 10px 5px;
+    }
+
+  }
+  a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 23px;
+    display: block;
+    padding: 10px;
+  }
+  li{
+      list-style: none;
+      display:inline;
+   }
